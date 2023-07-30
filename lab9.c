@@ -8,6 +8,7 @@ struct RecordType
 	int		order; 
 };
 
+
 // Fill out this structure
 struct HashType
 {
@@ -17,7 +18,7 @@ struct HashType
 // Compute the hash function
 int hash(int x)
 {
-
+	return x %73;
 }
 
 // parses input file to an integer array
